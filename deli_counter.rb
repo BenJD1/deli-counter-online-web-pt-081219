@@ -10,11 +10,15 @@ def line(deli)
   end
 end
 
+
+
 def take_a_number(deli, name)
   puts "Welcome, " + name + ". You are number #{deli.size + 1} in line."
   deli << name
   deli
 end
+
+
 
 def now_serving(deli)
   if deli.size == 0
